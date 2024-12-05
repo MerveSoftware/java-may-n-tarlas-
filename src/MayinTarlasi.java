@@ -1,4 +1,3 @@
-import org.jetbrains.annotations.NotNull;
 
 import java.awt.GridLayout;
 import java.awt.event.MouseEvent;
@@ -116,7 +115,7 @@ public class MayinTarlasi implements MouseListener {
 	}
 
 	@Override
-	public void mouseClicked(@NotNull MouseEvent e) {
+	public void mouseClicked( MouseEvent e) {
 		Btn b = (Btn) e.getComponent();
 		if (e.getButton() == 1) {
 			System.out.println("sol tik");
